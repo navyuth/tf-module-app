@@ -6,3 +6,5 @@ variable "max_size" {}
 variable "min_size" {}
 variable "desired_capacity" {}
 variable "subnets" {}
+variable "vpc_id" {}
+variable "bastion_cidr" {}
