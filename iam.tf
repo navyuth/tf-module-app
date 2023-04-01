@@ -32,7 +32,7 @@ resource "aws_iam_policy" "main" {
 resource "aws_iam_role" "main" {
   name = "${var.component}-${var.env}"
 
-  # Terrafor"${var.component}-${var.env}"m's "jsonencode" function converts a
+  # Terraform"${var.component}-${var.env}"m's "jsonencode" function converts a
   # Terraform expression result to valid JSON syntax.
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
