@@ -1,7 +1,7 @@
 data "aws_ami" "ami" {
 
   most_recent = true
-  name_regex = "Devops-ansible-practice"
+  name_regex = "Devops-practice"
   owners = ["self"]
 }
 
